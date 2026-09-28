@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>FlipHello Support</title>
+  <style>body{font:1rem/1.6 system-ui,sans-serif;max-width:42rem;margin:2rem auto;padding:0 1rem;color:#202124}a{color:#0757a8}h1,h2{line-height:1.25}</style>
+</head>
+<body>
+  <main>
+    <h1>FlipHello Support</h1>
+    <p>FlipHello helps you remember and organize people in your iPhone contacts. You can try demo mode without granting Contacts access.</p>
+    <p>For help, bug reports, or purchase questions, email <a id="contact-email">Loading contact address…</a>. Please include your iOS version and a brief description of the issue. Do not email anyone's contact details.</p>
+
+    <p><a href="privacy.html">Privacy Policy</a></p>
+  </main>
+  <script>
+    const address = atob('bWlsbGlvbmFydEBnbWFpbC5jb20=');
+    const link = document.getElementById('contact-email');
+    link.href = 'mailto:' + address;
+    link.textContent = address;
+  </script>
+</body>
+</html>
