@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Flappy Bevy Support</title>
+  <style>body{font:1rem/1.6 system-ui,sans-serif;max-width:42rem;margin:2rem auto;padding:0 1rem;color:#202124}a{color:#0757a8}h1,h2{line-height:1.25}</style>
+</head>
+<body>
+  <main>
+    <h1>Flappy Bevy Support</h1>
+    <p>Need help, found a bug, or have an idea? <a href="https://github.com/millionart/AppSupport/issues">Contact us through GitHub Issues</a>. A GitHub account is required to post, and issues are public. Do not include personal or sensitive information.</p>
+    <p>For private questions, email <a id="contact-email">Loading contact address…</a>.</p>
+
+    <h2>How to play</h2>
+    <ul>
+      <li>Tap to flap; hold to climb higher.</li>
+      <li>Use the pause button to resume play or change sound settings.</li>
+      <li>Collect matching foods to earn a talent choice.</li>
+      <li>High scores and collection progress are stored on your device. Removing the app removes this data.</li>
+    </ul>
+
+    <p><a href="privacy.html">Privacy Policy</a></p>
+  </main>
+  <script>
+    const address = atob('bWlsbGlvbmFydEBnbWFpbC5jb20=');
+    const link = document.getElementById('contact-email');
+    link.href = 'mailto:' + address;
+    link.textContent = address;
+  </script>
+</body>
+</html>
