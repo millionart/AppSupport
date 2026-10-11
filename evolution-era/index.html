@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Evolution Era Support</title>
+  <style>body{font:1rem/1.6 system-ui,sans-serif;max-width:42rem;margin:2rem auto;padding:0 1rem;color:#202124}a{color:#0757a8}h1,h2{line-height:1.25}</style>
+</head>
+<body>
+  <main>
+    <h1>Evolution Era / 进化纪元 Support</h1>
+    <p>Need help, found a bug, or have an idea? <a href="https://github.com/millionart/AppSupport/issues">Contact us through GitHub Issues</a>. A GitHub account is required to post, and issues are public. Do not include personal or sensitive information.</p>
+    <p>For private questions, email <a id="contact-email">Loading contact address…</a>.</p>
+
+    <h2>How to play</h2>
+    <ul>
+      <li>Negotiate your first investment, train a model, and publish it to start earning revenue.</li>
+      <li>Plan your weekly actions, manage costs and pricing, and respond to industry events.</li>
+      <li>More research, markets, and financing choices become available as your company develops. Open Help for guidance for your current stage.</li>
+      <li>Company progress and sound settings are saved on your device. Core gameplay works offline. Removing the app removes its local saves.</li>
+    </ul>
+
+    <h2>Rewarded ads and purchases</h2>
+    <p>Rewarded ads require an internet connection and a completed viewing to grant the indicated reward. If an ad cannot load or is closed before completion, no reward is granted; your existing company is preserved.</p>
+    <p>The optional, one-time “Ad-Free Restarts” purchase lets you start new companies without watching restart ads. It does not remove the optional model advertising previews or story-unlock ads. Open Help, choose New Company, and use the purchase or Restore Purchases action. Restore with the same Apple Account used for the original purchase. StoreKit purchases and restoration require an internet connection.</p>
+    <p>Where required, you can reopen advertising consent choices using “Ad Privacy Settings” in Help or the advertising screen.</p>
+
+    <p><a href="privacy.html">Privacy Policy</a></p>
+  </main>
+  <script>
+    const address = atob('bWlsbGlvbmFydEBnbWFpbC5jb20=');
+    const link = document.getElementById('contact-email');
+    link.href = 'mailto:' + address;
+    link.textContent = address;
+  </script>
+</body>
+</html>
