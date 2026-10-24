@@ -5,12 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex">
   <title>FlipHello Support</title>
-  <style>body{font:1rem/1.6 system-ui,sans-serif;max-width:42rem;margin:2rem auto;padding:0 1rem;color:#202124}a{color:#0757a8}h1,h2{line-height:1.25}</style>
+  <style>body{font:1rem/1.6 system-ui,sans-serif;max-width:42rem;margin:2rem auto;padding:0 1rem;color:#202124}a{color:#0757a8}h1,h2{line-height:1.25}figure{margin:2rem 0}figure img{display:block;width:100%;max-width:22rem;height:auto;margin:auto}figcaption{margin-top:.75rem;color:#555}pre{white-space:pre-wrap;background:#f5f5f7;padding:1rem}</style>
 </head>
 <body>
   <main>
     <h1>FlipHello Support</h1>
-    <p>FlipHello helps you remember and organize people in your iPhone contacts. You can try demo mode without granting Contacts access.</p>
+    <p>FlipHello is an iPhone contact-management app that helps you remember people using per-contact ratings, tags, and memory cues. You can try demo mode without granting Contacts access.</p>
+    <h2 id="contact-notes">Sync to the Notes field in Apple Contacts</h2>
+    <p>When you choose Sync, FlipHello writes your ratings, tags, and memory cues to the <strong>Notes field of the corresponding contact in Apple Contacts</strong>. These details can then be viewed and edited in the system Contacts app, independently of FlipHello.</p>
+    <p>FlipHello reads existing contact Notes to import those details. Immediately before syncing, it reads the current Notes again so it can merge your changes and retain other note content. Existing FlipHello ratings and tags are updated rather than repeatedly appended. Your edits stay locally in FlipHello until you choose to sync.</p>
+    <ol>
+      <li>Allow Contacts access and choose the people you remember.</li>
+      <li>Add a rating, tags, and a note about the person.</li>
+      <li>Open All, review the pending changes, and choose Sync. A one-time purchase unlocks contact sync and removes ads.</li>
+      <li>Open the same person in Apple Contacts to view the result in Notes.</li>
+    </ol>
+    <p>For example, a fictional contact's Notes can contain:</p>
+    <pre>⭐️⭐️⭐️⭐️
+Met at the neighborhood photography walk.
+Remembers everyone's favorite camera.
+#Coworker #Photography</pre>
+    <p>Contact names, photos, and Notes are processed on your device. FlipHello does not upload them to the developer or include them in advertising requests. You can manage Contacts access in iOS Settings.</p>
+    <p>FlipHello is being prepared for release. Notes sync in distributed builds is awaiting Apple's Contact Notes Field Access approval.</p>
+
+    <h2>App screenshots</h2>
+    <p>Captured from the running iOS app in a dedicated simulator. All people and contact details shown here are fictional.</p>
+    <figure><img src="screenshots/01-contact-cards.png" alt="FlipHello contact cards for classifying fictional contacts" loading="lazy"><figcaption>Remember people by flipping through contact cards.</figcaption></figure>
+    <figure><img src="screenshots/02-notes-editor.png" alt="Editing a fictional contact's rating, tags, and memory cue" loading="lazy"><figcaption>Prepare the rating, tags, and memory cue that you want to keep in contact Notes.</figcaption></figure>
+    <figure><img src="screenshots/03-pending-sync.png" alt="FlipHello contact list with changes waiting for the user to sync" loading="lazy"><figcaption>Changes remain on the device until you choose to sync them to Apple Contacts.</figcaption></figure>
+
+    <h2>Contact support</h2>
     <p>For help, bug reports, or purchase questions, email <a id="contact-email">Loading contact address…</a>. Please include your iOS version and a brief description of the issue. Do not email anyone's contact details.</p>
 
     <p><a href="privacy.html">Privacy Policy</a></p>
